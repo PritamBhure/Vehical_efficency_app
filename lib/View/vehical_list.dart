@@ -54,7 +54,6 @@ class _VehicleListViewState extends State<VehicleListView> {
           title: Text(vehicle.name),
           subtitle: Text('${vehicle.mileage} km/l • ${vehicle.year}'),
           tileColor: viewModel.getVehicleColor(vehicle),
-          trailing: const Icon(Icons.arrow_forward),
         );
       },
     );
